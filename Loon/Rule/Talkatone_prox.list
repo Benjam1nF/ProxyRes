@@ -1,0 +1,14 @@
+#!name=Talkatone_proxy
+#!desc=Talkatone 全局代理规则集
+#!author=https://github.com/LOWERTOP
+#!icon=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/main/Icon/talkatone.png
+#!homepage=https://github.com/LOWERTOP/Shadowrocket-First
+
+[Rule]
+# 以下规则必须走代理
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+# 语音留言地址，需要代理
+DOMAIN-SUFFIX,vm.talkatone.com
+# 贴图服务
+DOMAIN-SUFFIX,tenor.com
