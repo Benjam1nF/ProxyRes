@@ -1,4 +1,4 @@
-!name=TgIPMap
+#!name=TgIPMap
 #!desc=将 tg 的垃圾 IP 转移到好的 IP 上
 #!icon=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/main/Icon/telegram.png
 #!raw-url=https://github.com/Benjam1nF/ProxyRes/raw/main/Loon/tg_ip_map.plugin
