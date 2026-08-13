@@ -5,4 +5,4 @@
 #!icon = https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/17/a3/d817a3df-4aec-6187-0b3d-eee8465a01b5/Placeholder.mill/400x400bb-75.webp
 #!date = 2026-08-13 08:00:00
 
-http-response ^https?:\/\/example\.com script-path=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/refs/heads/main/Loon/Script/Fr24.js,tag=Fr24,requires-body=true,binary-body-mode=false,timeout=10,enable=true
+http-request ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/refs/heads/main/Loon/Script/Fr24.js,tag=Fr24,timeout=60
