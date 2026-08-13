@@ -6,7 +6,7 @@
 #!date = 2026-08-13 08:00:00
 
 [Script]
-http-request ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/refs/heads/main/Loon/Script/Fr24.js,tag=Fr24,timeout=60
+http-response ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) script-path=https://raw.githubusercontent.com/Benjam1nF/ProxyRes/refs/heads/main/Loon/Script/Fr24.js,requires-body=true,binary-body-mode=false,tag=Fr24,timeout=60
 
 [MITM]
 hostname = mobile.flightradar24.com
